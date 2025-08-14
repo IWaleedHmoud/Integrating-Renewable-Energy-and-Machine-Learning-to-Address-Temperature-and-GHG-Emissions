@@ -1,7 +1,7 @@
 
 
-Data1 = readtable('C:\Users\iwalhmoud\OneDrive - North Carolina A&T State University\Issa2Gokaraju\Students\Hiba Darwish\RE paper - Jordan case study\Model 1.xlsx') ;
-Data2 = readtable('C:\Users\iwalhmoud\OneDrive - North Carolina A&T State University\Issa2Gokaraju\Students\Hiba Darwish\RE paper - Jordan case study\Model 2.xlsx') ;
+Data1 = readtable('Model 1.xlsx') ;
+Data2 = readtable('Model 2.xlsx') ;
 
 
 
@@ -34,4 +34,5 @@ plot(xq2, y_pred2, 'g', 'LineWidth', 2, 'DisplayName','Prediction') ;
 plot(xq2, y_ci2, 'r--', 'LineWidth', 2, 'DisplayName', '95% Confidence Interval') ;
 grid on ; axis tight ; legend('Location', 'best') ;
 xlabel('Trapped Solar Radiation [W/m^2]', 'FontSize', 12, 'FontWeight', 'bold') ;
+
 ylabel('Average Temperature [°C]', 'Interpreter', 'tex', 'FontSize', 12, 'FontWeight', 'bold') ;
