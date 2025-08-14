@@ -1,6 +1,6 @@
 clc; clear; close all
 
-T = readtable('C:\Users\iwalhmoud\OneDrive - North Carolina A&T State University\Issa2Gokaraju\Students\Hiba Darwish\RE paper - Jordan case study\Initial draft\Results.xlsx') ;
+T = readtable('Results.xlsx') ;
 
 %% Wind project names
 X1 = categorical(T.ProjectName(1:9));
@@ -54,5 +54,6 @@ for i = 1:size(TopPV, 2)
     grid on
 
 end
+
 
 ylabel(t, 'Emitted CO_{2} [tCO_{2}]', 'FontSize', 12, 'FontWeight', 'bold');
