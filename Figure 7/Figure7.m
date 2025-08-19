@@ -31,7 +31,7 @@ ylabel(t1, 'Emitted CO_{2} [tCO_{2}]', 'FontSize', 12, 'FontWeight', 'bold');
 %% Top PV CO2 emission reduction projects
 figure ;
 t = tiledlayout(3, 3) ;
-TopPV = [13, 17, 20, 21, 22, 23, 24, 26, 27] ;
+TopPV = [13, 16, 17, 20, 21, 22, 23, 26, 27] ;
 PVlge = [13, 22, 27] ; % projects with higher ylimit
 
 for i = 1:size(TopPV, 2)
@@ -57,3 +57,4 @@ end
 
 
 ylabel(t, 'Emitted CO_{2} [tCO_{2}]', 'FontSize', 12, 'FontWeight', 'bold');
+
